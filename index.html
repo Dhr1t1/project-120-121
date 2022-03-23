@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>Project 120-121</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+    </head>
+    <body>
+        <ol>
+            <div class=" div col-sm-4 col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image-</b>
+                    <img src="eraser.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Google Lens-</b>
+                    <span>Soccer Ball Eraser</span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobile Net</b>
+                    <span>Unable to indentify</span>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12"></div>
+                <h4>Result- Google Lens is more accurate</h4>
+                <hr>
+                <h4></h4>
+            </div>
+            <br>
+            <div class=" div col-sm-4 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image-</b>
+                <img src="dice.jpg" class="img-responsive">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Google Lens-</b>
+                <span>Dice</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobile Net</b>
+                <span>TV</span>
+            </h5>
+
+            <div class="mini_result" class="col-xs-12"></div>
+            <h4>Result- Google Lens is more accurate </h4>
+            <hr>
+            <h4></h4>
+        </div>
+        <br>
+        <div class="div col-sm-4 col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+            <b>Test Image-</b>
+            <img src="clip.jpg" class="img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Google Lens-</b>
+            <span>Pearl Clips</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Mobile Net</b>
+            <span>Panpipe</span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12"></div>
+        <h4>Result- Google Lens is more accurate</h4>
+        <hr>
+        <h4></h4>
+    </div>
+    <br>
+    <div class="div col-sm-4 col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test Image-</b>
+        <img src="iphone.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+        Output on <b>Google Lens-</b>
+        <span>iPhone 6</span>
+    </h5>
+
+    <h5 class="col-sm-4 col-xs-12">
+        Output on <b>Mobile Net</b>
+        <span>Remote Control</span>
+    </h5>
+
+    <div class="mini_result" class="col-xs-12"></div>
+    <h4>Result- Google Lens is more accurate </h4>
+    <hr>
+    <h4></h4>
+</div>
+<br>
+<div class="div col-sm-4 col-xs-12">
+<li class="col-sm-4 col-xs-12">
+    <b>Test Image-</b>
+    <img src="tissues.jpg" class="img-responsive">
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Google Lens-</b>
+    <span>Kleenex Tissues</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobile Net</b>
+    <span>Unable to identifiy</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12"></div>
+<h4>Result- Google Lens is mare accurate </h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<div class="div col-sm-4 col-xs-12">
+<li class="col-sm-4 col-xs-12">
+    <b>Test Image-</b>
+    <img src="ipad.jpg" class="img-responsive">
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Google Lens-</b>
+    <span>iPad Air 2</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobile Net</b>
+    <span>Laptop</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12"></div>
+<h4>Result- Google Lens is more accurate</h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<div class="div col-sm-4 col-xs-12">
+<li class="col-sm-4 col-xs-12">
+    <b>Test Image-</b>
+    <img src="iwatch.jpg" class="img-responsive">
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Google Lens-</b>
+    <span>Apple Watch</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobile Net</b>
+    <span>Seat Belt</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12"></div>
+<h4>Result- Google Lens is more accraute </h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<div class="div col-sm-4 col-xs-12">
+<li class="col-sm-4 col-xs-12">
+    <b>Test Image-</b>
+    <img src="large_clip.jpg" class="img-responsive">
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Google Lens-</b>
+    <span>Hair Claw Clip</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobile Net</b>
+    <span>Coil</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12"></div>
+<h4>Result- Google Lens is more accurate</h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<div class="div col-sm-4 col-xs-12">
+<li class="col-sm-4 col-xs-12">
+    <b>Test Image-</b>
+    <img src="rock.jpg" class="img-responsive">
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Google Lens-</b>
+    <span>Unable to Identifiy</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobile Net</b>
+    <span>Ping Pong Ball</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12"></div>
+<h4>Result- Neither Identified Correctly</h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<br>
+<div>
+    <h3>I tested 10 images. Out of all Google Lens was able to identify 9 images, Moblie Net was able to identifiy 0 images. Based on data, Google Lens is better.</h3>
+</div>
+    </body>
+</html>
